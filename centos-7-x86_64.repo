@@ -1,0 +1,19 @@
+[centos-7-base]
+name=CentOS 7 - x86_64 - Base
+mirrorlist=http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os
+gpgcheck=0
+
+[centos-7-updates]
+name=CentOS 7 - x86_64 - Updates
+mirrorlist=http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=updates
+gpgcheck=0
+
+[centos-7-extras]
+name=CentOS 7 - x86_64 - Extras
+mirrorlist=http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=extras
+gpgcheck=0
+
+[centos-7-atomic-testing]
+name=CentOS 7 - x86_64 - Atomic Testing
+baseurl=http://cbs.centos.org/repos/atomic7-testing/x86_64/os/
+gpgcheck=0

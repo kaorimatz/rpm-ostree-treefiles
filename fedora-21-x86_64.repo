@@ -1,0 +1,9 @@
+[fedora-21]
+name=Fedora 21 - x86_64
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-21&arch=x86_64
+gpgcheck=0
+
+[fedora-21-updates]
+name=Fedora 21 - x86_64 - Updates
+metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f21&arch=x86_64
+gpgcheck=0

@@ -1,0 +1,26 @@
+{
+  "ref": "fedora/rawhide/x86_64",
+  "repos": ["fedora-rawhide", "fedora-rawhide-kernel-nodebug"],
+  "selinux": true,
+  "bootstrap_packages": ["glibc", "nss-altfiles"],
+  "install-langs": ["en"],
+  "packages": [
+    "dhcp-client",
+    "dnf",
+    "initscripts",
+    "iproute",
+    "kernel-core",
+    "openssh-clients",
+    "openssh-server",
+    "ostree-grub2",
+    "passwd",
+    "rpm-ostree",
+    "selinux-policy-targeted",
+    "sudo",
+    "which"
+  ],
+  "units": [
+    "network.service"
+  ],
+  "postprocess-script": "fedora-rawhide-x86_64.sh"
+}

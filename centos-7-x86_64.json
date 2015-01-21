@@ -1,0 +1,26 @@
+{
+  "ref": "centos/7/x86_64",
+  "repos": ["centos-7-base", "centos-7-updates", "centos-7-extras", "centos-7-atomic-testing"],
+  "selinux": true,
+  "bootstrap_packages": ["glibc", "nss-altfiles"],
+  "install-langs": ["en"],
+  "packages": [
+    "dhclient",
+    "initscripts",
+    "iproute",
+    "kernel",
+    "openssh-clients",
+    "openssh-server",
+    "ostree-grub2",
+    "passwd",
+    "rpm-ostree",
+    "selinux-policy-targeted",
+    "sudo",
+    "which",
+    "yum"
+  ],
+  "units": [
+    "network.service"
+  ],
+  "postprocess-script": "centos-7-x86_64.sh"
+}

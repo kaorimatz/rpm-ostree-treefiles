@@ -1,0 +1,10 @@
+[fedora-rawhide]
+name=Fedora Rawhide - x86_64
+metalink=https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=x86_64
+gpgcheck=0
+exclude=kernel-core
+
+[fedora-rawhide-kernel-nodebug]
+name=Fedora Rawhide - x86_64 - Kernels built without debugging turned on
+baseurl=http://alt.fedoraproject.org/pub/alt/rawhide-kernel-nodebug/x86_64/
+gpgcheck=0
